@@ -1,0 +1,12 @@
+[package]
+name = "every-commit-shorthash"
+version = "0.1.0"
+authors = ["Teddy Katz <teddy.katz@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sha-1 = "0.9"
+flate2 = "^1.0"
+crc = "^1.8"
